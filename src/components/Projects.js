@@ -24,7 +24,7 @@ const projects = [
     description:
       "This very portfolio showcases my skills, projects, and web development abilities using React, Tailwind CSS, and Framer Motion.",
     image: image3,
-    link: "https://vishalsinghksyp.github.io/vishal-portfolio/",
+    link: process.env.REACT_APP_PORTFOLIO_URL,
   },
 ];
 
