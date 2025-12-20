@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import image1 from "./image1.png";
 import image2 from "./image2.png";
+import image3 from "./image3.png";
 
 const projects = [
   {
@@ -19,11 +20,11 @@ const projects = [
     link: "https://passop-frontendd.vercel.app/",
   },
   {
-    title: "PhotoGenius (Concept)",
+    title: "Vishal Singh Portfolio",
     description:
-      "PhotoGenius is a conceptual AI-based photo enhancement platform designed to explore intelligent image processing workflows and user-friendly editing experiences.",
-    image: "https://via.placeholder.com/400x300?text=PhotoGenius",
-    link: "#",
+      "This very portfolio showcases my skills, projects, and web development abilities using React, Tailwind CSS, and Framer Motion.",
+    image: image3,
+    link: "https://vishalsinghksyp.github.io/vishal-portfolio/",
   },
 ];
 
@@ -40,7 +41,7 @@ const ProjectCard = ({ project }) => {
         <img
           src={project.image}
           alt={project.title}
-          className="w-full h-48 object-cover rounded-lg mb-4 transition-transform hover:scale-105"
+          className="w-full h-48 object-cover rounded-lg mb-4 transition-transform hover:scale-105 border border-black hover:border-yellow-500"
         />
         <h3 className="text-2xl font-bold mb-3 text-teal-400">
           {project.title}

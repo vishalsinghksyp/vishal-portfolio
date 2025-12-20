@@ -51,7 +51,7 @@ const About = () => {
         >
           <img
             src={photo}
-            alt="Ayush Aggarwal"
+            alt="Vishal Singh"
             className="object-cover w-full h-full transition-transform duration-700 transform hover:scale-110"
           />
         </motion.div>
