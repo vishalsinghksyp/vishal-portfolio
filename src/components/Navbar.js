@@ -5,12 +5,6 @@ const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const toggleMobileMenu = () => setIsMobileMenuOpen(!isMobileMenuOpen);
-  const closeMobileMenu = () => setIsMobileMenuOpen(false);
-
-  const handleScrollToMain = () => {
-    document.getElementById("main").scrollIntoView({ behavior: "smooth" });
-    closeMobileMenu();
-  };
 
   const handleReload = () => {
     // Reloads the page
