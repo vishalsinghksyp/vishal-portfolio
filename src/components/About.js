@@ -9,7 +9,7 @@ import {
   FaCss3,
   FaHtml5,
 } from "react-icons/fa";
-import { SiExpress, SiChromadb, SiJavascript } from "react-icons/si";
+import { SiExpress, SiJavascript } from "react-icons/si";
 import { TbLetterC } from "react-icons/tb";
 import { SiMongodb, SiMysql } from "react-icons/si";
 import { SiFastapi, SiLangchain, SiNextdotjs } from "react-icons/si";
