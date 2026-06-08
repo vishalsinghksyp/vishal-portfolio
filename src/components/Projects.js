@@ -3,8 +3,16 @@ import { motion } from "framer-motion";
 import image1 from "./image1.png";
 import image2 from "./image2.png";
 import image3 from "./image3.png";
+import image4 from "./image4.png";
 
 const projects = [
+  {
+    title: "Arc Reactor AI",
+    description:
+      "An autonomous multi-agent research pipeline powered by 4 AI agents. Enter any topic and the system searches the web, reads sources, writes a structured report, and critically reviews it — all in minutes. Built with Next.js, FastAPI, MistralAI, and Tavily.",
+    image: image4,
+    link: "https://arc-reactor-ai.vercel.app",
+  },
   {
     title: "Ashprint",
     description:
